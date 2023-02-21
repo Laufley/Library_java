@@ -7,11 +7,13 @@ public class LibraryTests {
 
     private Library library;
     private Book book1;
+    private Book book2;
 
     @Before
     public void before() {
         library = new Library(400);
         book1 = new Book("Words of radiance", "Brandon Sanderson", "Fantasy");
+        book2 = new Book("I, robot", "Isaac Asimov", "Science fiction");
     }
 
     @Test
